@@ -1,7 +1,7 @@
 # 开发环境配置
 server:
   # 服务器的HTTP端口，默认为8080
-  port: 8080
+  port: 8081
 
 # Spring配置
 spring:
@@ -12,3 +12,11 @@ spring:
     url: jdbc:mysql://192.168.31.211:3306/yunzu-bidding?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8 #url
     username: devuser
     password: Yxy88888#
+
+# Swagger配置
+swagger:
+  # 是否开启swagger
+  enabled: true
+  # 请求前缀
+  pathMapping: /api
+
