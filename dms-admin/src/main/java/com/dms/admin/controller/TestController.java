@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
+    /**
+     * 测试接口
+     */
     @GetMapping("/getInfo")
     public String getInfo()
     {
