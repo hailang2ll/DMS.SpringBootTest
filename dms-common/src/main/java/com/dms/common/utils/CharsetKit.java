@@ -49,7 +49,7 @@ public class CharsetKit
     }
 
     /**
-     * 转换字符串的字符集编码
+     * 转换字符串的字符集编码 w
      * 
      * @param source 字符串
      * @param srcCharset 源字符集，默认ISO-8859-1
