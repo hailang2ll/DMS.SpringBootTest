@@ -1,0 +1,14 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 8080
+
+# Spring配置
+spring:
+  # 数据库连接配置
+  datasource:
+    name: ceshi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.31.211:3306/yunzu-bidding?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8 #url
+    username: devuser
+    password: Yxy88888#
